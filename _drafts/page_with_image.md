@@ -4,12 +4,12 @@ layout: page
 # Content
 #
 subheadline: ""
-title: ""
-teaser: ""
+title: "This is Deans Page"
+teaser: "A philosophical nightmare"
 categories:
-  - 
+  -
 tags:
-  - 
+  -
 #
 # Styling
 #
