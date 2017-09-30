@@ -8,20 +8,20 @@
 #                                                 /____/
 #
 # Title of your website
-#title: 'Dean Sanders'
-title: 'Feeling Responsive'
+title: 'Dean Sanders'
+
 # The slogan describes your website and is used on homepage in <title> and other important places
 slogan: 'Start by understanding the stars, the planets, life and all its constiuent elements, then search for your connection to them. It may be closer than you think'
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
-description: 'Every moment is full of millions of subtle miracles. Whether its a gentle breeze of liquid like air molecules causing every leaf on a tree to vibrate in a hum or the smile of a person with whom you've never met. Open your senses, take a deep breath and allow the torrent to rush in. Do this and you will experience life as never before'
+description: 'Every moment is full of millions of subtle miracles. Whether its a gentle breeze of liquid like air molecules causing every leaf on a tree to vibrate in a hum or the smile of a person with whom you have never met. Open your senses, take a deep breath and allow the torrent to rush in. Do this and you will experience life as never before'
 
 # The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
 credits: '<p>Created with &hearts; by <a href="http://phlow.de/">Phlow</a> with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a>.</p>'
 
 # Main author of the website
 # See > authors.yml
-author: Dean
+author: dean
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
