@@ -8,7 +8,7 @@
 phlow: # replace this with your info
   name: "Dean"
   siterole: "Biologist,Bioinformatician,Scientist"
-  uri:
+  url:
   email: "dmsanders@wisc.edu"
   twitter:
 # you can add more authors here

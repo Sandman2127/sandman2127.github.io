@@ -26,7 +26,7 @@ author: dean
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
 url: Sandman2127.github.io #
-baseurl: # '/'
+baseurl: 
 
 # This is for the editing function in _/includes/improve_content
 # Leave it empty if your site is not on GitHub/GitHub Pages
@@ -42,7 +42,7 @@ urlimg: 'https://phlow.github.io/feeling-responsive/images/'
 
 
 # Logo size is 600x80 pixels
-logo: /images/gallery-example-2.jpg
+logo: /images/gallery-example-3.jpg
 
 # Gems
 gems:
