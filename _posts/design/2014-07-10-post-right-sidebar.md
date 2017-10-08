@@ -2,7 +2,7 @@
 layout: page
 sidebar: right
 subheadline: Templates
-title:  "Page/Post Right Sidebar"
+title:  "Page/Post Right Sidebar I wana post left tho"
 teaser: "This is an example of page/post with a sidebar on the right."
 breadcrumb: true
 tags:

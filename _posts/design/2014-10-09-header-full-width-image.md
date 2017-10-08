@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Header with a Full-Width-Image"
+title:  "Header with a Full-Width-Image, this is a header with a full image"
 subheadline:  "Headers With Style"
 teaser: "Feeling Responsive allows you to use all kinds of headers. This example shows a header with a <em>full-width-image</em>."
 categories:
@@ -30,7 +30,7 @@ header:
 
 
 
-### All Header-Styles 
+### All Header-Styles
 {: .t60 }
 
 {% include list-posts tag='header' %}
