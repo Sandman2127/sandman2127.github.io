@@ -11,7 +11,7 @@
 title: Dean Sanders
 
 # The slogan describes your website and is used on homepage in <title> and other important places
-#slogan: 'Start by understanding the stars, the planets, life and all its constiuent elements, then search for your connection to them. It may be closer than you think'
+slogan: 'Start by understanding the stars, the planets, life and all its constiuent elements, then search for your connection to them. It may be closer than you think'
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
 description: 'Every moment is full of millions of subtle miracles. Whether its a gentle breeze of liquid like air molecules causing every leaf on a tree to vibrate in a hum or the smile of a person with whom you have never met. Open your senses, take a deep breath and allow the torrent to rush in. Do this and you will experience life as never before'
@@ -25,9 +25,12 @@ author: dean
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: Sandman2127.github.io #
-baseurl: 
+#url: 'https://phlow.github.io'
+#baseurl: '/feeling_responsive'
 
+#url: 'https://phlow.github.io'
+#baseurl: '/feeling-responsive'
+# it was '/feeling-responsive'
 # This is for the editing function in _/includes/improve_content
 # Leave it empty if your site is not on GitHub/GitHub Pages
 #improve_content: https://github.com/Phlow/feeling-responsive/edit/gh-pages
@@ -38,11 +41,15 @@ baseurl:
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: 'https://phlow.github.io/feeling-responsive/images/'
+urlimg: '/images/'
+
+# this was essential to getting the code to find images from the local images folder
+#'https://phlow.github.io/feeling-responsive/images/'
+# gotta replace all my images onto here to get them to show up!
 
 
 # Logo size is 600x80 pixels
-logo: /images/gallery-example-3.jpg
+logo: Fusor.jpg
 
 # Gems
 gems:
