@@ -1,23 +1,26 @@
 ---
 layout: page
-title: "The interaction between DNA methylation and Heat Stress"
-subheadline: #"Headers With Style"
-teaser: "Feeling Responsive allows you to use all kinds of headers. This header is with text."
+title: "The interaction between DNA methylation and Stress"
+#subheadline: #"Headers With Style"
+#teaser:
 categories:
     - design
-tags:
-    - design
-    - background color
-    - header
+#tags:
+#    - design
+#    - background color
+#    - header
 header:
-    title: Diving_pg
+    title: My research
     background-color: "#EFC94C;"
 #    pattern: pattern_concrete.jpg
-    image_fullwidth: Fusor.jpg
-    caption: A functional Fusor
+    image_fullwidth: Cygnus.jpg
+    caption: Cygnus constellation www.nasa.gov
     #caption_url: https://unsplash.com/
 ---
 <!--more-->
+
+Area of research
+
 
 Years at WID
 
@@ -26,20 +29,3 @@ Education
 Research Description
 
 Honors
-
-
-
-## Front Matter Code
-
-~~
-header:
-    title: header with text
-    image_fullwidth: Fusor.jpg
-    caption: This is a caption for the header image with link
-    caption_url: https://unsplash.com/
-~~~
-
-### All Header-Styles
-{: .t60 }
-
-{% include list-posts tag='header' %}

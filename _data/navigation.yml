@@ -12,32 +12,32 @@
   url: "/design/my-research/"
   side: left
 
-- title: Coding examples
-  url: "/design/"
-  side: left
-  dropdown:
+#- title: Coding examples
+#  url: "/design/"
+#  side: left
+#  dropdown:
   #- title: "Grid & Colors"
   #  url: "/design/grid/"
-  - title: "Python"
-    url: "/design/Python"
+#  - title: "Python"
+#    url: "/design/Python"
   #- title: "abab"
   #  url: "/design/Astronomy"
 
 
-- title: "Hobbies"
-  url: "/design/"
-  side: left
-  dropdown:
+#- title: "Hobbies"
+#  url: "/design/"
+#  side: left
+#  dropdown:
   #- title: "Grid & Colors"
   #  url: "/design/grid/"
-  - title: "Electricity"
-    url: "/design/electricity"
-  - title: "Astronomy"
-    url: "/design/Astronomy"
-  - title: "Volleyball"
-    url: "/design/vball"
-  - title: "Scuba diving"
-    url: "/design/scuba-diving"
+#  - title: "Electricity"
+#    url: "/design/electricity"
+#  - title: "Astronomy"
+#    url: "/design/Astronomy"
+#  - title: "Volleyball"
+#    url: "/design/vball"
+#  - title: "Scuba diving"
+#    url: "/design/scuba-diving"
 
 
 
