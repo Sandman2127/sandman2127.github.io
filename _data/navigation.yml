@@ -12,29 +12,32 @@
   url: "/design/my-research/"
   side: left
 
+- title: "Bioinformatics"
+  #url: "/design/"
+  side: left
+  #dropdown:
+  #- title: "Python code for summarising MS/MS skyline output file"
+  #  url: ""
+  #- title: "Simple analysis pipeline for ..."
+  #  url: ""
+  #- title: "Analysis of transposable elements in Arabidopsis"
+  #  url: ""
+
 - title: Publications
   url: "https://scholar.google.com/citations?user=96jS3k0AAAAJ&hl=en&oi=ao"
   side: left
 
-#- title: Coding examples
+- title: CV
+  url: "https://github.com/Sandman2127/pdfs/blob/master/Dean_S_CV_2017_10_10.pdf"
+  side: left
+
+#- title: "Builds"
 #  url: "/design/"
 #  side: left
 #  dropdown:
-  #- title: "Grid & Colors"
-  #  url: "/design/grid/"
-#  - title: "Python"
-#    url: "/design/Python"
-  #- title: "abab"
-  #  url: "/design/Astronomy"
-
-
-#- title: "Hobbies"
-#  url: "/design/"
-#  side: left
-#  dropdown:
-  #- title: "Grid & Colors"
-  #  url: "/design/grid/"
-#  - title: "Electricity"
+  #- title: "Bacterial Biofilm Reactor"
+  #  url: "url to the plans"
+#  - title: "Fluorescence Macroscope"
 #    url: "/design/electricity"
 #  - title: "Astronomy"
 #    url: "/design/Astronomy"
