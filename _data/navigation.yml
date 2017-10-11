@@ -15,9 +15,9 @@
 - title: "Bioinformatics"
   #url: "/design/"
   side: left
-  #dropdown:
-  #- title: "Python code for summarising MS/MS skyline output file"
-  #  url: ""
+  dropdown:
+  - title: "Summarising histone PTM MS/MS skyline analysis"
+    url: "https://github.com/Sandman2127/Skyline_histone_PTM_analysis/blob/master/Automating_MSMS_calculations_annotated.py"
   #- title: "Simple analysis pipeline for ..."
   #  url: ""
   #- title: "Analysis of transposable elements in Arabidopsis"
