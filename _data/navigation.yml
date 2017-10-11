@@ -12,6 +12,10 @@
   url: "/design/my-research/"
   side: left
 
+- title: Publications
+  url: "https://scholar.google.com/citations?user=96jS3k0AAAAJ&hl=en&oi=ao"
+  side: left
+
 #- title: Coding examples
 #  url: "/design/"
 #  side: left
@@ -41,8 +45,7 @@
 
 
 
-#  - title: "Typography"
-#    url: "/design/typography/typography/"
+
 #  - title: "Page/Post"
 #    url: "/design/page/"
 #  - title: "Post-Left-Sidebar"
