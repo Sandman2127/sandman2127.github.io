@@ -6,7 +6,7 @@
 #
 layout: frontpage
 header:
-  image_fullwidth: Tesla_racecar.jpg
+  image_fullwidth: Cygnus.jpg
 widget1:
   title: "More about me"
   url: "/design/about_me/"

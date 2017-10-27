@@ -1,5 +1,5 @@
 # this is one of the most important sections on the site, it sets the navigation for the upper bar
-- title: Home
+- title: "Dean Sanders"
   url: "/"
   class: icon-globe
   side: left
@@ -12,8 +12,8 @@
   url: "/design/my-research/"
   side: left
 
+
 - title: "Bioinformatics"
-  #url: "/design/"
   side: left
   dropdown:
   - title: "Summarising histone PTM MS/MS skyline analysis"
@@ -22,6 +22,17 @@
   #  url: ""
   #- title: "Analysis of transposable elements in Arabidopsis"
   #  url: ""
+
+- title: Microscopy Build Schematics
+  side: left
+  dropdown:
+  - title: "Fluorescence Macroscope"
+    url: ""
+  - title: "Biofilm Reactor"
+    url: "https://github.com/Sandman2127/pdfs/blob/master/Biofilm_reactor.pdf"
+  - title: "Petriplate Biofilm Viewer"
+    url: "https://github.com/Sandman2127/pdfs/blob/master/Biofilm_Coverslip_Petriplate.pdf"
+
 
 - title: Publications
   url: "https://scholar.google.com/citations?user=96jS3k0AAAAJ&hl=en&oi=ao"
