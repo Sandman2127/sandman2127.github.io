@@ -8,10 +8,13 @@
 #  url: "/getting-started/"
 #  side: left
 
-- title: My research
-  url: "/design/my-research/"
-  side: left
+#- title: "grid"
+#  url: "/design/grid/"
+#  side: right
 
+- title: "My research"
+  url: "/design/page-fullwidth/"
+  side: left
 
 - title: "Bioinformatics"
   side: left

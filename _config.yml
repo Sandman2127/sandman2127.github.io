@@ -14,7 +14,7 @@ title: Dean Sanders
 slogan:
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
-description: 'Start by understanding the stars, the planets, life and all its constiuent elements, then search for your connection to them. It may be closer than you think'
+description: #'Start by understanding the stars, the planets, life and all its constiuent elements, then search for your connection to them. It may be closer than you think'
 
 #'Every moment is full of millions of subtle miracles. Whether its a gentle breeze of liquid like air molecules causing every leaf on a tree to vibrate in a hum or the smile of a person with whom you have never met. Open your senses, take a deep breath and allow the torrent to rush in. Do this and you will experience life as never before'
 
@@ -100,7 +100,6 @@ compress_html:
   ignore:
     envs: [development]
 
-
 #
 #       ____       ____            ____
 #      / __ \___  / __/___ ___  __/ / /_
@@ -125,10 +124,10 @@ defaults:
       path: ''
       type: 'posts'
     values:
-      show_meta: true   # Show metadata for all posts
+      show_meta: false  # Show metadata for all posts
       # sidebar:        # Possible values › left, right › by default there will be no sidebar
       comments: false
-      author: phlow     # Default author for posts
+      author: Dean     # Default author for posts
 
 
 
@@ -165,18 +164,18 @@ bing_webmastertools_id:    '0FB4C028ABCF07C908C54386ABD2D97F'
 #   /_/    \__,_/ |___/_/\___/\____/_/ /_/____/   Favicon-Crap: Favicons, Chrome, Android & Apple Touch Buttons
 #                                                 More information » https://mathiasbynens.be/notes/touch-icons
 
-favicon-32x32:                          'favicon-32x32.png'
-touch-icon-192x192:                     'touch-icon-192x192.png'
-apple-touch-icon-180x180-precomposed:   'apple-touch-icon-180x180-precomposed.png'
-apple-touch-icon-152x152-precomposed:   'apple-touch-icon-152x152-precomposed.png'
-apple-touch-icon-144x144-precomposed:   'apple-touch-icon-144x144-precomposed.png'
-apple-touch-icon-120x120-precomposed:   'apple-touch-icon-120x120-precomposed.png'
-apple-touch-icon-114x114-precomposed:   'apple-touch-icon-114x114-precomposed.png'
-apple-touch-icon-76x76-precomposed:     'apple-touch-icon-76x76-precomposed.png'
-apple-touch-icon-72x72-precomposed:     'apple-touch-icon-72x72-precomposed.png'
-apple-touch-icon-precomposed:           'apple-touch-icon-precomposed.png'
-msapplication_tileimage:                'msapplication_tileimage.png'               # Size 144x144
-msapplication_tilecolor:                '#fabb00'
+#favicon-32x32:                          'favicon-32x32.png'
+#touch-icon-192x192:                     'touch-icon-192x192.png'
+#apple-touch-icon-180x180-precomposed:   'apple-touch-icon-180x180-precomposed.png'
+#apple-touch-icon-152x152-precomposed:   'apple-touch-icon-152x152-precomposed.png'
+#apple-touch-icon-144x144-precomposed:   'apple-touch-icon-144x144-precomposed.png'
+#apple-touch-icon-120x120-precomposed:   'apple-touch-icon-120x120-precomposed.png'
+#apple-touch-icon-114x114-precomposed:   'apple-touch-icon-114x114-precomposed.png'
+#apple-touch-icon-76x76-precomposed:     'apple-touch-icon-76x76-precomposed.png'
+#apple-touch-icon-72x72-precomposed:     'apple-touch-icon-72x72-precomposed.png'
+#apple-touch-icon-precomposed:           'apple-touch-icon-precomposed.png'
+#msapplication_tileimage:                'msapplication_tileimage.png'               # Size 144x144
+#msapplication_tilecolor:                '#fabb00'
 
 
 #       ______                __                __
@@ -199,9 +198,9 @@ og_type:                            'website'
 #  Open _data/socialmedia.yml to adjust the left and right topbar navigation
 #
 
-socialmedia:
-    twitter: phlow
-    facebook: phlow.media
+#socialmedia:
+#    twitter: phlow
+#    facebook: phlow.media
 
 
 #        ____  _
@@ -213,7 +212,7 @@ socialmedia:
 #
 # used in _includes/comments
 
-disqus_shortname: feelingresponsive
+#disqus_shortname: feelingresponsive
 
 
 #      _____

@@ -1,8 +1,8 @@
-- menu_name: "Services"
+#- menu_name: "Services"
 
-- name: "Contact Me"
-  url: "/contact/"
-  title: "Contact Me"
+#- name: "Contact Me"
+#  url: "/contact/"
+#  title: "Contact Me"
 
 - #name: "RSS"
   #url: "/feed.xml"
