@@ -21,7 +21,7 @@
   dropdown:
   - title: "Summarising histone PTM MS/MS skyline analysis"
     url: "https://github.com/Sandman2127/Skyline_histone_PTM_analysis/blob/master/Automating_MSMS_calculations_annotated.py"
-  -title: "DNA methylation Metaplotting program"
+  - title: "DNA methylation Metaplotting program"
     url: "https://github.com/Sandman2127/DNA_Methylation_Metaplotter"
   #- title: "Simple analysis pipeline for ..."
   #  url: ""
