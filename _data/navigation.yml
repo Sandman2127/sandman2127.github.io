@@ -32,7 +32,7 @@
   side: left
   dropdown:
   - title: "Fluorescence Macroscope"
-    url: ""
+    url: "https://github.com/Sandman2127/pdfs/tree/master/Macroscope"
   - title: "Biofilm Reactor"
     url: "https://github.com/Sandman2127/pdfs/blob/master/Biofilm_reactor.pdf"
   - title: "Petriplate Biofilm Viewer"
