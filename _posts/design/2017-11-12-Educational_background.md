@@ -51,7 +51,7 @@ Project: Studying anti-biofilm activities of Dictyostelids</p>
 Project: Investigating epigenetic mechanisms in plants</p>
 
 <div class="row">
-    <div class="medium-3 columns t30">
+    <div class="medium-2 columns t30">
     <img src="{{ site.urlimg }}Genetics.png" alt="">
     </div><!-- /.medium-4.columns -->
 <div class="row">
