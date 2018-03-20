@@ -19,12 +19,12 @@
 - title: "Bioinformatics"
   side: left
   dropdown:
-  - title: "Summarising histone PTM MS/MS skyline analysis"
-    url: "https://github.com/Sandman2127/Skyline_histone_PTM_analysis/blob/master/Automating_MSMS_calculations_annotated.py"
   - title: "DNA Methylation Metaplotter"
     url: "https://github.com/Sandman2127/DNA_Methylation_Metaplotter"
   - title: "Whole Genome DNA Methylation Ploting"
     url: "https://github.com/Sandman2127/Whole_Genome_DNA_Methylation_Plotter"
+  - title: "Summarising histone PTM MS/MS skyline analysis"
+    url: "https://github.com/Sandman2127/Skyline_histone_PTM_analysis/blob/master/Automating_MSMS_calculations_annotated.py"
   #- title: "Analysis of transposable elements in Arabidopsis"
   #  url: ""
 
