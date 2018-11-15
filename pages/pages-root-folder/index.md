@@ -18,7 +18,7 @@ widget2:
   title: "My hobbies"
   url: '/design/Blog_page'
   image: shredin.jpg
-  text: "What does Dean do with all that spare time ?" #'Every good portfolio website has a blog with fresh news, thoughts and develop&shy;ments of your activities. <em>Feeling Responsive</em> offers you a fully functional blog with an archive page to give readers a quick overview of all your posts.'
+  text: "What does Dean do with his spare time?" #'Every good portfolio website has a blog with fresh news, thoughts and develop&shy;ments of your activities. <em>Feeling Responsive</em> offers you a fully functional blog with an archive page to give readers a quick overview of all your posts.'
 
 widget3:
   title: "Educational Background"
