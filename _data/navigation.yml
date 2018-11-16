@@ -4,15 +4,7 @@
   class: icon-globe
   side: left
 
-#- title: Getting Started
-#  url: "/getting-started/"
-#  side: left
-
-#- title: "grid"
-#  url: "/design/grid/"
-#  side: right
-
-- title: "My research"
+- title: "My Ph.D. research"
   url: "/design/My_research/"
   side: left
 
@@ -25,19 +17,6 @@
     url: "https://github.com/Sandman2127/Whole_Genome_DNA_Methylation_Plotter/blob/master/WG_methylation_plotter.py"
   - title: "Summarising histone PTM MS/MS skyline analysis"
     url: "https://github.com/Sandman2127/Skyline_histone_PTM_analysis/blob/master/Automating_MSMS_calculations_annotated.py"
-  #- title: "Analysis of transposable elements in Arabidopsis"
-  #  url: ""
-
-- title: Microscopy Build Schematics
-  side: left
-  dropdown:
-  - title: "Fluorescence Macroscope"
-    url: "https://github.com/Sandman2127/pdfs/tree/master/Macroscope"
-  - title: "Biofilm Reactor"
-    url: "https://github.com/Sandman2127/pdfs/blob/master/Biofilm_reactor.pdf"
-  - title: "Petriplate Biofilm Viewer"
-    url: "https://github.com/Sandman2127/pdfs/blob/master/Biofilm_Coverslip_Petriplate.pdf"
-
 
 - title: Publications
   url: "https://scholar.google.com/citations?user=96jS3k0AAAAJ&hl=en&oi=ao"
@@ -47,79 +26,30 @@
   url: "https://github.com/Sandman2127/pdfs/blob/master/DS_Resume_2018.pdf"
   side: left
 
-#- title: "Builds"
-#  url: "/design/"
-#  side: left
-#  dropdown:
-  #- title: "Bacterial Biofilm Reactor"
-  #  url: "url to the plans"
-#  - title: "Fluorescence Macroscope"
-#    url: "/design/electricity"
-#  - title: "Astronomy"
-#    url: "/design/Astronomy"
-#  - title: "Volleyball"
-#    url: "/design/vball"
-#  - title: "Scuba diving"
-#    url: "/design/scuba-diving"
-
-
-
-
-#  - title: "Page/Post"
-#    url: "/design/page/"
-#  - title: "Post-Left-Sidebar"
-#    url: "/design/post-left-sidebar/"
-#  - title: "Post-Right-Sidebar"
-#    url: "/design/post-right-sidebar/"
-#  - title: "Page Full-Width"
-#    url: "/design/page-fullwidth/"
-#  - title: "Blog-Page"
-#    url: "/blog/"
-#  - title: "Video"
-#    url: "/design/video/"
-#  - title: "Gallery"
-#    url: "/design/gallery/"
-#  - title: "Portfolio"
-#    url: "/design/portfolio/"
-
-#-title: "Header Styles"
-#  url: "/headers/"
-#  side: left
-#  dropdown:
-#  - title: "Header with Full-Width-Image"
-#    url: "/design/header-full-width-image/"
-#  - title: "Header with Image and Pattern"
-#    url: "/design/header-image-pattern/"
-#  - title: "Header with image and color"
-#    url: "/design/header-image-color/"
-#  - title: "Header Only With Logo"
-#    url: "/design/header-logo-only/"
-#  - title: "Header With Text"
-#    url: "/design/header-with/"
-#  - title: "No Header"
-#    url: "/design/no-header/"
-#  - title: "No Header but Image"
-#    url: "/design/no-header-but-image/"
-
-#- title: Documentation
-#  url: "/documentation/"
-#  side: left
-#  dropdown:
-#  - title: "Changelog"
-#    url: "/changelog/"
-#  - title: "Roadmap"
-#    url: "/roadmap/"
-
-#- title: Blog
-#  url: "/blog/"
-#  side: left
-#  dropdown:
-#  - title: "Blog Archive"
-#    url: "/blog/archive/"
-
-- title: "Search"
-  url: "/search/"
+- title: Microscopy Build Schematics
   side: right
+  dropdown:
+  - title: "Fluorescence Macroscope"
+    url: "https://github.com/Sandman2127/pdfs/tree/master/Macroscope"
+  - title: "Biofilm Reactor"
+    url: "https://github.com/Sandman2127/pdfs/blob/master/Biofilm_reactor.pdf"
+  - title: "Petriplate Biofilm Viewer"
+    url: "https://github.com/Sandman2127/pdfs/blob/master/Biofilm_Coverslip_Petriplate.pdf"
+
+- title: "Electronics Builds"
+  url: "/design/"
+  side: right
+  dropdown:
+  - title: "Tesla Coil"
+    url: "url to the plans"
+  - title: "Van de Graaff Generator"
+    url: "url to the plans"
+  - title: "Arduino and Raspberry Pi projects"
+    url: "url to the plans"
+
+#- title: "Search"
+#  url: "/search/"
+#  side: right
 
 - title: "Contact"
   url: "/contact/"

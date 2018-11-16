@@ -15,16 +15,19 @@ widget1:
   image: Chicagoimage_DS.jpg
 
 widget2:
-  title: "My hobbies"
-  url: '/design/Blog_page'
-  image: shredin.jpg
-  text: "What does Dean do with his spare time?" #'Every good portfolio website has a blog with fresh news, thoughts and develop&shy;ments of your activities. <em>Feeling Responsive</em> offers you a fully functional blog with an archive page to give readers a quick overview of all your posts.'
-
-widget3:
   title: "Educational Background"
   url: "/design/Educational_background"
   image: GFP_bacteria_2.jpg
   text: "My past education" # '<em>Feeling Responsive</em> is free and licensed under a MIT License. Make it your own and start building. Grab the <a href="https://github.com/Phlow/feeling-responsive/tree/bare-bones-version">Bare-Bones-Version</a> for a fresh start or learn how to use it with the <a href="https://github.com/Phlow/feeling-responsive/tree/gh-pages">education-version</a> with sample posts and images. Then tell me via Twitter <a href="http://twitter.com/phlow">@phlow</a>.'
+
+
+widget3:
+  title: "My hobbies"
+  url: '/design/Blog_page'
+  image: wipeout.jpg
+  text: "What I do with my spare time" #'Every good portfolio website has a blog with fresh news, thoughts and develop&shy;ments of your activities. <em>Feeling Responsive</em> offers you a fully functional blog with an archive page to give readers a quick overview of all your posts.'
+
+
 #
 # Use the call for action to show a button on the frontpage
 #
