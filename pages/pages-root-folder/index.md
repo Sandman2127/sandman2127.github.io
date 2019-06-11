@@ -22,9 +22,9 @@ widget2:
 
 
 widget3:
-  title: "My hobbies"
+  title: "My Hobbies and Interests"
   url: '/design/Blog_page'
-  image: wipeout.jpg
+  image: earthhour.png
   text: "What I do with my spare time" #'Every good portfolio website has a blog with fresh news, thoughts and develop&shy;ments of your activities. <em>Feeling Responsive</em> offers you a fully functional blog with an archive page to give readers a quick overview of all your posts.'
 
 
