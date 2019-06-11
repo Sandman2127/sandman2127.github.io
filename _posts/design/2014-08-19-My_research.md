@@ -13,15 +13,15 @@ header:
 <div class="row">
     <div class="medium-12 columns t30">
     <img src="{{ site.urlimg }}Central_dogma.jpg" alt="">
-    </div><!-- /.medium-4.columns -->  
+    </div>
 </div>
 <p>Throughout evolution life has developed a diverse repertoire of mechanisms to control the expression of genes, which are the functional units of DNA. All forms of life utilize an information flow pipeline where genes are transcribed to mRNA which are translated into protein. Although the flow of information from blueprint to message to machine is fascinating at all steps, I focus on the question of how molecular life achieves precise control of the message making process. To describe gene regulation in a musical analogy: if genes are notes in a song, then the regulation controlling when and how long those musical notes are played is what allows a song to be more than a non-sensical mess. Correct regulation of gene expression is what allows the symphony that is cellular life to faithfully carry out developmental programs in the face of many environmental obstacles. It is this regulation that scientists speak of when they discuss epigenetics.</p>
 
 <p>Ignoring epigenetic controls, transcription of the DNA blueprint into messenger RNA (mRNA) requires a large number of nuclear proteins including RNA Polymermase II, transcription initiation factors, elongation factors, mediators, splicing proteins and generalized transcription factors that respond to environmental and developmental cues. Going a level deeper we find that the entire transcriptional process previously described can be either permitted or blocked via multiple passive and active mechanisms. Epigenetic mechanisms that control chromatin status include: recruitment/blocking of transcription factors during binding gene promoters, control of local chromatin compaction, control of high order chromatin compaction (interaction among genome elements that are spatially close in the nucleus).</p>
 <div class="row">
-    <div class="medium-8 columns t30">
+    <div class="column.small-centered">
     <img src="{{ site.urlimg }}chromatin_model.jpg" alt="">
-    </div><!-- /.medium-4.columns -->   
+    </div>  
 </div>
 <p>My research is concerned with charecterizing how chromatin state (euchromatin (permissive) or heterochromatin (intolerant) of transcription) affects gene expression related to stress response in plants. Because of their sessile nature, plants must adapt to abiotic stressors quickly to avoid death. Indeed experiments have shown that plants that are given low dose abiotic stresses survive better when they are later given a stronger stress treatment. In the cases where a plant survives a stress episode it may be possible to pass on the memory of an abiotic stress episode via epigenetic mechanisms to further generations. However, transgenerational inheritance of stress tolerance (where epigenetic mechanisms would be required), is still heavily debated in all manner of eukaryotic organisms.</p>
 
