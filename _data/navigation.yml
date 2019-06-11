@@ -37,15 +37,14 @@
     url: "https://github.com/Sandman2127/pdfs/blob/master/Biofilm_Coverslip_Petriplate.pdf"
 
 - title: "Electronics Builds"
-  url: "/design/"
   side: right
   dropdown:
   - title: "Tesla Coil"
-    url: "url to the plans"
-  - title: "Van de Graaff Generator"
-    url: "url to the plans"
-  - title: "Arduino and Raspberry Pi projects"
-    url: "url to the plans"
+    url: "/design/Tesla_Coil"
+  - title: "Raspberry Pi temperature regulator"
+    url: "/design/Pi_Fan_Proj"
+  #- title: "Van de Graaff"
+  #  url: "/design/Van_de_Graaff"
 
 #- title: "Search"
 #  url: "/search/"
