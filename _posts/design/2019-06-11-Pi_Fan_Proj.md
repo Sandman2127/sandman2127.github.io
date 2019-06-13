@@ -55,7 +55,7 @@ Your browser does not support the video tag.
 </video>
 
 <h4>Performance:</h4>
-<p>I have not performed official tests that would force the Pi3 to get hot, but I can tell you using the Raspian OS and simply pulling websites via WIFI and running a full HD 1080 screen is enough to push my Pi to 80 celcius during a warm Wisconsin day (thats with the heatsink installed on the core chip). My pi resides in the garge as a garage computer. However, using this program my temperatures have never exceeded 65 celcius even with the most load I can put on it.</p>
+<p>I have not performed official tests that would force the Pi3 to get super hot, but I can tell you using the Raspian OS and simply pulling websites via WIFI and running a full HD 1080 screen is enough to push my Pi to 80 celcius during a warm Wisconsin day (thats with the heatsink installed on the core chip). My pi resides in the garge as a garage computer. However, using this program my temperatures have never exceeded 65 celcius even with the most load I have put on it to date. So...<strong>it works</strong>, 15 C cooler is quite acceptable to me for < $5 worth of parts and 1 hour of coding. I'm sure this system could be further optimized. I have the fan pulling hot air out of the Pi, I have yet to try the opposite, pushing outside air in.</p>
 <br>
 <h3><em>Subsequent Testing</em> </h3>
 <video width="1000" height="800" controls>
