@@ -11,6 +11,8 @@
 - title: "Bioinformatics"
   side: left
   dropdown:
+  - title: "COVID-19 Amplicon Analysis Pipeline"
+    url: "https://github.com/Sandman2127/COVID19-Amplicon-Sequencing-Analysis-Pipeline"
   - title: "DNA Methylation Metaplotter"
     url: "https://github.com/Sandman2127/DNA_Methylation_Metaplotter/blob/master/Python_version/Metaplotter_032018.py"
   - title: "Whole Genome DNA Methylation Ploting"
