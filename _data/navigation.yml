@@ -41,12 +41,14 @@
 - title: "Electronics Builds"
   side: right
   dropdown:
+  - title: "8 Bit Computer build from Integrated Circuits"
+    url: "/design/8_Bit_Computer"
   - title: "Tesla Coil"
     url: "/design/Tesla_Coil"
+  - title: "5A Adjustable Voltage Linear Power Supply"
+    url: "/design/Adjustable_Power_Supply"
   - title: "Raspberry Pi temperature regulator"
     url: "/design/Pi_Fan_Proj"
-  #- title: "Van de Graaff"
-  #  url: "/design/Van_de_Graaff"
 
 #- title: "Search"
 #  url: "/search/"
