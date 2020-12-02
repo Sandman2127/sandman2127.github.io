@@ -6,14 +6,31 @@ categories:
 header:
    image_fullwidth: psufull.jpg
 ---
-<h2><strong>A Linear Regulator</strong></h2>
-<p></p>
-
-
-<h3><strong>The Build</strong></h3>
+<h2><strong>How to convert AC electricty to DC</strong></h2>
 <p><strong>AC electricity</strong></p>
 <p><strong>Intermediate forms</strong></p>
 <p><strong>Regulated DC electrical potential</strong></p>
+
+<h3><strong>An Unregulated Power Supply</strong></h3>
+<div class="row">
+    <div class="column.large-centered">
+    <img src="{{ site.urlimg }}psuUnreg.jpg" alt="">
+    </div>
+</div>
+<p>image credit: https://www.elprocus.com/</p>
+<p></p>
+
+<h3><strong>A Linear Regulated Power Supply</strong></h3>
+<p></p>
+<div class="row">
+    <div class="column.large-centered">
+    <img src="{{ site.urlimg }}psuRegLin.jpg" alt="">
+    </div>
+</div>
+<p>image credit: https://www.elprocus.com/</p>
+<p></p>
+
+<h3><strong>The Build</strong></h3>
 
 <!-- <p> </p>
 <ul>
