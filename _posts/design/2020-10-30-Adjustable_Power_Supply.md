@@ -34,7 +34,13 @@ header:
     <img src="{{ site.urlimg }}psuprot0.jpg" alt="">
     </div>
 </div>
-<p><a href="https://everycircuit.com/circuit/6734605162643456/overcurrent-short-circuit-protection-circuit">EveryCirc live simulation</a></p>
+
+<h3><strong><a href="https://everycircuit.com/circuit/6734605162643456/overcurrent-short-circuit-protection-circuit">See the live EveryCircuit simulation of this custom circuit</a></strong></h3>
+<div class="row">
+    <div class="column.large-centered">
+    <img src="{{ site.urlimg }}psuEverycirc.png" alt="">
+    </div>
+</div>
 <h3><strong>Description of Operation</strong></h3>
 <p>This is a functional overcurrent protection circuit. It measures the voltage drop across the 220 mOhm resistor on the far left supply. That voltage is boosted and compared against a reference voltage in the second opamp (comparator mode) and an SR latch is used to latch the overcurrent result.</p> 
 <p>If the output of the first opamp is lower than the inverting input (-) voltage the output of the second opamp is low, otherwise the output goes high.</p>  
@@ -47,15 +53,15 @@ header:
     <img src="{{ site.urlimg }}psuprot1.jpg" alt="">
     </div>
 </div> -->
-<br></br>
-<h3><strong>Circuit in shutdown state (red led active)</strong></h3>
+<h3><strong>Power supply in shutdown state (red led active)</strong></h3>
 <div class="row">
     <div class="column.large-centered">
     <img src="{{ site.urlimg }}psuprot3.jpg" alt="">
     </div>
 </div>
+<p>My system is hardwired to allow no more than 2A @ 16VDC. If the resistance of load drops below a threshold that higher than 2A <em>would flow</em> the protection circuit activates and immediately shuts off the supply. It can only be reactivated through the reset switch.</p>
 
-<h3><strong>Circuit in active passing current state (blue led active)</strong></h3>
+<h3><strong>Power supply in active passing current state (blue led active)</strong></h3>
 <div class="row">
     <div class="column.large-centered">
     <img src="{{ site.urlimg }}psuprot2.jpg" alt="">
