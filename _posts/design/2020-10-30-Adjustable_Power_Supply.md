@@ -6,11 +6,24 @@ categories:
 header:
    image_fullwidth: psufull.jpg
 ---
-<h2><strong>How to convert AC electricty to DC</strong></h2>
-<p><strong>AC electricity</strong></p>
-<p><strong>Intermediate forms</strong></p>
-<p><strong>Regulated DC electrical potential</strong></p>
+<h2><strong>Converting Alternating Current (AC) into Direct Current (DC)</strong></h2>
+<p><strong>Alternating Current</strong></p>
+<p>Across the earth the AC form of electricity is almost unanimously used for power distribution as opposed to DC. There are advantages and disadvantages to this:</p>
+<!-- <p> </p>
+<ul>
+<li></li>
+<li></li>
+<li></li>
+<li></strong></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li> 
+</ul> -->
 
+
+<h2><strong>Power Supply Types</strong></h2>
 <h3><strong>An Unregulated Power Supply</strong></h3>
 <div class="row">
     <div class="column.large-centered">
