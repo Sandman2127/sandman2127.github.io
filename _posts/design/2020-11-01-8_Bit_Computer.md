@@ -44,7 +44,7 @@ One of the most natural extensions of logic gates is the ability to store inform
 
 <h3><strong>An 8 Bit Breadboard Computer</strong></h3>
 <h4>Building in stages</h4>
-When attacking a big problem I always appreciate following the reductionist mindset. Generally, the simple thought of building a computer from wires and IC's sounds completely mental. However if we break the problem of a computer into parts, i.e. sets of simpler problems, solve all those, and integrate them together, building a computer is no harder than building anything else. I'm just lucky I had the experience and resources to do it.
+When attacking a big problem I always appreciate following the reductionist mindset. Generally, the simple thought of building a computer from just wires and IC's seems completely mental. However, if we break the problem of assembling a working computer into parts, i.e. sets of simpler problems. Then all we have to do is solve all those, and bring them together. From that perspective building a computer is no harder than building anything else. It simply requires resources, experience and a lot of patience.
 <h4>The Long Term Memory of an 8 bit computer</h4>
 
 <h4>The Short Term Memory of an 8 bit computer</h4>
