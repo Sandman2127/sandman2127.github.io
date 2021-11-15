@@ -76,12 +76,15 @@ header:
 <h2>Enough nonsense, what can you use it for?</h2>
 <p>We have just built the universal DC adapter :). Anything that runs on voltages below 16V and requires < 2A current can be powered by this circuit. This includes: computers, motors, arduinos, fans, whatever you can come up with that takes DC electricity. The inherent safety added by the protection circuit makes this a perfect power system for testing parts and fixing other electrical systems.</p>
 
-<h2>Why build the supply with dual rails?</h2>
-<h3> Operational Amplifiers (opamps)</h3>
+<h2>Why build the supply with +/- rails?</h2>
+<h3>Operational Amplifiers (opamps)</h3>
 <p>Having a supply with + & - voltage rail allows the user to amplify analog signals like music or sensor data with massive signal gain. One way to do this is to use an opamp.</p>
-<a href="https://everycircuit.com/circuit/6586919818625024">Non-inverting and inverting op-amp simulation</a><br>
-<iframe width="560" height="360" src="https://everycircuit.com/embed/6586919818625024" frameborder="0"></iframe>
-<p>Using the circuit configuration shown in the above simulation we can both amplify and invert any input signal within that opamps capability. The results in real life are nothing short of astounding...</p>
+<div class="row">
+    <div class="column.large-centered">
+    <img src="{{ site.urlimg }}psuOpAmpNonInv_InvConfig.png" alt="">
+    </div>
+</div>
+<p><a href="https://everycircuit.com/circuit/6586919818625024">View this non-inverting and inverting op-amp simulation</a>. Using the circuit configuration shown allows both amplification and inversion of any analog input signal within that opamps range. <strong>The results in real life are nothing short of astounding...</strong></p>
 <h4>100x signal gain using using a non-inverting amplifier w/negative feedback</h4>
 <div class="row">
     <div class="column.large-centered">
@@ -90,7 +93,7 @@ header:
 </div>
 <p style="color:red;">Input Signal (20 mVpp)</p>
 <p style="color:gold;">NonInverted Output Signal (1.8 Vpp)</p>
-<p>Using the linear power supply with +/- 10V rails fed to the opamp we can amplify the sine wave (20 mVpp) input to nearly 2 Vpp (~100x gain) with near perfect accuracy using a <a href="https://www.futurlec.com/Motorola/MC33174.shtml">Motorolla MC33174</a>. In order to amplify the signal without clipping the waveform, the range of the rails must be larger than the highest amplified output on both edges. In this case, we were going for 100x amplification and nearly got it.</p>
+<p>Using the linear power supply with +/- 10V rails fed to the opamp we can amplify the sine wave (20 mVpp) input to nearly 2 Vpp (~100x gain) with near perfect accuracy using a <a href="https://www.futurlec.com/Motorola/MC33174.shtml">Motorolla MC33174</a>. In order to amplify the signal without clipping the waveform, the range of the rails must be larger than the highest amplified output on both edges. In this case, we were aiming for 100x amplification and nearly achieved it.</p>
 <h4>Waveform Inversion & 100x signal gain using an inverting amplifier</h4>
 <div class="row">
     <div class="column.large-centered">
@@ -99,3 +102,14 @@ header:
 </div>
 <p style="color:red;">NonInverted Output Signal (1.8 Vpp)</p>
 <p style="color:gold;">Inverted Output Signal (1.8 Vpp)</p>
+
+<h4>Amplifying live audio from <a href="https://www.youtube.com/watch?v=Vsy1URDYK88">Language</a> by: Porter Robinson</h4>
+<div>
+<video width="1000" controls>
+    <source src="/images/images/psuLanguageAlive.mov" type="video/mp4">
+    <source src="movie.ogg" type="video/ogg">
+    Your browser does not support the video tag.
+</video>
+</div>
+<p style="color:red;">Audio Input Signal (100 mVpp scale)</p>
+<p style="color:gold;">Voltage Amplified Output Signal (1 Vpp scale)</p>
