@@ -50,7 +50,7 @@ urlimg: '/images/'
 
 
 # Logo size is 600x80 pixels
-logo: UW_mad.png
+# logo:
 
 # Gems
 gems:
