@@ -6,23 +6,11 @@ categories:
 header:
    image_fullwidth: psufull.jpg
 ---
-<h2>Converting Alternating Current (AC) into Direct Current (DC)</h2>
-<p>Alternating Current</p>
-<p>Across the earth the AC form of electricity is almost unanimously used for power distribution as opposed to DC. There are advantages and disadvantages to this:</p>
-<!-- <p> </p>
-<ul>
-<li></li>
-<li></li>
-<li></li>
-<li></strong></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li> 
-</ul> -->
+<h2>A Brief History of Power Distribution using Alternating Current (AC) vs Direct Current (DC)</h2>
+<p>Alternating Current alternates lol... and Direct Current remains constant at a constant voltage. In the United States alternating current leads to electrons sloshing back over a miniscule distance opposing directions exactly 60 x per second (Hz). That seems academically interesting, but not very useful... Right? The AC form of electricity is unanimously used for power distribution across the earth. But why??? It makes little sense to those of us who are first starting electronics why this decision was made. Many, if not most electronics we use on a daily basis operate on DC at some level. Why not just use DC to start with? The reason for this is historical in nature, in the beginnings of world electrification a great battle known as the <a href="https://www.energy.gov/articles/war-currents-ac-vs-dc-power">War of the Currents</a> ensued between the two top minds of the electrical world (<a href="https://en.wikipedia.org/wiki/Nikola_Tesla">Nikola Tesla</a> & <a href="https://en.wikipedia.org/wiki/Thomas_Edison">Thomas Edison</a>). In the end the battle was decidedly won by economic factors. The victory lap showing the obvious winner was Nikola Tesla's first massive display of the electrification in the <a href="https://en.wikipedia.org/wiki/World%27s_Columbian_Exposition">1893 Chicago World's Fair</a>. The polyphase system displayed wowed the world with a display of artificial light brighter than had ever been seen by human eyes. It was enabled by Tesla's induction motor and the newly created AC power transformer. To this day improved versions of those inventions allow smaller wires to carry more power during distribution than DC systems every could. The means is simple, modern power plants use steam turned inductions motors to generate AC and voltage step up transformers to convert low voltage high energy currents --> to high voltage low current. Using high voltage means we can pass more current with less heating of the wires. Thus, a worldwide grid of electrical energy was born. Its creation forced electrons to live busy and confusing lives using their potential energy to do the bidding of a recently woken consciousness.</p>
 
 <h2>Power Supply Types</h2>
+<p>The goal of the powersupply we are producing is to convert AC --> DC, yep like the band...</p>
 <h3>An Unregulated Power Supply</h3>
 <div class="row">
     <div class="column.large-centered">
@@ -30,7 +18,7 @@ header:
     </div>
 </div>
 <p>image credit: https://www.elprocus.com/</p>
-<p></p>
+<p>An unregulated power supply uses a transformer to step down wall voltage (120v @ 60 Hz) to a lower voltage (12v @ 60 Hz). The step down transformer output is fed to system of rectifier diodes that recitify both sides of the AC waveform to a positive (+) bouncing wave. The diodes achieve this by acting as one way valves for current flow, i.e. once current has passed a diode, it cannot return through the same path. Finally, a thick sufficient voltage electrolytic capacitor is used to smooth the bouncing wave to a near Direct Current output DC. Unregulated supplies are as mentioned unable to smoothly regulate the voltage at the outputs. Thus, they are best avoided if possible.</p>
 
 <h3>A Linear Regulated Power Supply</h3>
 <p></p>
@@ -40,56 +28,29 @@ header:
     </div>
 </div>
 <p>image credit: https://www.elprocus.com/</p>
-<p></p>
+<p>In a regulated power supply the majority of the above description still applies. One major difference occurs once that the current reaches the regulator IC. The IC uses internal circuitry to vary the input current at whatever level is necessary to maintain the output voltage set by the user. Modern day regulator IC's can reject >75 Db of signal ripple, producing an extremely stable output voltage at the cost of outputting heat at a rate equivalent to the voltage drop across them. 
 
-<h2>My Dual Rail Short Protected Linear Power Supply</h2>
+<h4>Regulator output examples:</h4>
+<p>If 12V is applied the leads of the regulator and it is required to maintain a voltage at 6V while flowing 3A through a resistive load. According to <a href="https://en.wikipedia.org/wiki/Ohm%27s_law">Ohm's Law (P=IV) the load will dissipate 18 watts. However, we must not forget about the potential difference still in the circuit. Since we started with 12V - 6V (load) we still have 6V across the regulator. Since the load is pulling 3A that means the same 3A current must flow through the IC and this is where trouble begins. Thus, 3A * 6V = 18 watts. While the load may be able to handle 18 watts that is quite a lot of heat for a non-heatsinked regulator to dissipate. See the real world results of similar mistake below:</p>
+<div class="row">
+    <div class="column.large-centered">
+    <img src="{{ site.urlimg }}psuLinRegOops.jpg" alt="">
+    </div>
+</div>
+<p>The left is the remainder of a linear regulator IC designed to handle 5A @ 24V. As I discovered that rating means little when you dead short it. Needless to say, protection from such a mistake is something you realize you need in hindsight.</p>
+<h2>A Dual Rail Linear Power Supply with Short Circuit Protection</h2>
 <div class="row">
     <div class="column.large-centered">
     <img src="{{ site.urlimg }}psuFullOpAmpCircuitRun.jpg" alt="">
     </div>
 </div>
-<h2>Why build a supply with dual rails?</h2>
-<h3> Operational Amplifiers (opamps)</h3>
-<p>Having a supply with + & - voltage rail allows the user to amplify analog signals like music or sensor data with massive signal gain. One way to do this is to use an opamp.</p>
-<!-- <div class="row">
-    <div class="column.large-centered">
-    <img src="{{ site.urlimg }}psuOpAmp.jpg" alt="">
-    </div>
-</div> -->
-<a href="https://everycircuit.com/circuit/6586919818625024">Non-inverting and inverting op-amp simulation</a><br>
-<iframe width="560" height="360" src="https://everycircuit.com/embed/6586919818625024" frameborder="0"></iframe>
-<p>Using the circuit configuration shown in the above simulation we can both amplify and invert any input signal within that opamps capability. The results in real life are nothing short of astounding...</p>
-<h4>100x signal gain using using a non-inverting amplifier w/negative feedback</h4>
-<div class="row">
-    <div class="column.large-centered">
-    <img src="{{ site.urlimg }}psuinputAmplified.jpg" alt="">
-    </div>
-</div>
-<p style="color:red;background-color:black;">Input Signal (20 mVpp)</p>
-<p style="color:yellow;background-color:black;">NonInverted Output Signal (1.8 Vpp)</p>
-<p>Here, I use my input supply with +/- 10V rails to amplify an input signal (sine wave) of 20 mVpp to nearly 2 Vpp (~100x gain) with near perfect accuracy using a <a href="https://www.futurlec.com/Motorola/MC33174.shtml">Motorolla MC33174</a>. In order to amplify the signal without clipping the waveform, the range of the rails must be larger than the highest amplified output on both edges. In this case, we were going for 100x amplification and nearly got it.</p>
-<h4>Waveform Inversion & 100x signal gain using an inverting amplifier</h4>
-<div class="row">
-    <div class="column.large-centered">
-    <img src="{{ site.urlimg }}psuinputAmplifiedReversed.jpg" alt="">
-    </div>
-</div>
-<p style="color:red;background-color:black;">NonInverted Output Signal (1.8 Vpp)</p>
-<p style="color:yellow;background-color:black;">Inverted Output Signal (1.8 Vpp)</p>
-
 <h2>Custom Built Overcurrent Protection Circuit</h2>
-<div class="row">
-    <div class="column.large-centered">
-    <img src="{{ site.urlimg }}psuprot0.jpg" alt="">
-    </div>
-</div>
-
-<h3><a href="https://everycircuit.com/circuit/6734605162643456/overcurrent-short-circuit-protection-circuit">See the live EveryCircuit simulation of this custom circuit</a></h3>
 <div class="row">
     <div class="column.large-centered">
     <img src="{{ site.urlimg }}psuEverycirc.png" alt="">
     </div>
 </div>
+<p><a href="https://everycircuit.com/circuit/6734605162643456/overcurrent-short-circuit-protection-circuit">EveryCircuit Simulation of this custom circuit</a></p>
 <h3>Description of Operation</h3>
 <p>This is a functional overcurrent protection circuit. It measures the voltage drop across the 220 mOhm resistor on the far left supply. That voltage is boosted and compared against a reference voltage in the second opamp (comparator mode) and an SR latch is used to latch the overcurrent result.</p> 
 <p>If the output of the first opamp is lower than the inverting input (-) voltage the output of the second opamp is low, otherwise the output goes high.</p>  
@@ -111,3 +72,30 @@ header:
     <img src="{{ site.urlimg }}psuBoxOpen.jpg" alt="">
     </div>
 </div>
+
+<h2>Enough nonsense, what can you use it for?</h2>
+<p>We have just built the universal DC adapter :). Anything that runs on voltages below 16V and requires < 2A current can be powered by this circuit. This includes: computers, motors, arduinos, fans, whatever you can come up with that takes DC electricity. The inherent safety added by the protection circuit makes this a perfect power system for testing parts and fixing other electrical systems.</p>
+
+<h2>Why build the supply with dual rails?</h2>
+<h3> Operational Amplifiers (opamps)</h3>
+<p>Having a supply with + & - voltage rail allows the user to amplify analog signals like music or sensor data with massive signal gain. One way to do this is to use an opamp.</p>
+<a href="https://everycircuit.com/circuit/6586919818625024">Non-inverting and inverting op-amp simulation</a><br>
+<iframe width="560" height="360" src="https://everycircuit.com/embed/6586919818625024" frameborder="0"></iframe>
+<p>Using the circuit configuration shown in the above simulation we can both amplify and invert any input signal within that opamps capability. The results in real life are nothing short of astounding...</p>
+<h4>100x signal gain using using a non-inverting amplifier w/negative feedback</h4>
+<div class="row">
+    <div class="column.large-centered">
+    <img src="{{ site.urlimg }}psuinputAmplified.jpg" alt="">
+    </div>
+</div>
+<p style="color:red;">Input Signal (20 mVpp)</p>
+<p style="color:gold;">NonInverted Output Signal (1.8 Vpp)</p>
+<p>Using the linear power supply with +/- 10V rails fed to the opamp we can amplify the sine wave (20 mVpp) input to nearly 2 Vpp (~100x gain) with near perfect accuracy using a <a href="https://www.futurlec.com/Motorola/MC33174.shtml">Motorolla MC33174</a>. In order to amplify the signal without clipping the waveform, the range of the rails must be larger than the highest amplified output on both edges. In this case, we were going for 100x amplification and nearly got it.</p>
+<h4>Waveform Inversion & 100x signal gain using an inverting amplifier</h4>
+<div class="row">
+    <div class="column.large-centered">
+    <img src="{{ site.urlimg }}psuinputAmplifiedReversed.jpg" alt="">
+    </div>
+</div>
+<p style="color:red;">NonInverted Output Signal (1.8 Vpp)</p>
+<p style="color:gold;">Inverted Output Signal (1.8 Vpp)</p>
