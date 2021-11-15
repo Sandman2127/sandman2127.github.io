@@ -65,13 +65,17 @@ header:
     <img src="{{ site.urlimg }}psuinputAmplified.jpg" alt="">
     </div>
 </div>
-Here, I use my input supply with +/- 10V rails to amplify an input signal (sine wave) of 20 mVpp to nearly 2 Vpp (~100x gain) with near perfect accuracy using a <a href="https://www.futurlec.com/Motorola/MC33174.shtml">Motorolla MC33174</a>. In order to amplify the signal without clipping the waveform, the range of the rails must be larger than the highest amplified output on both edges. In this case, we were going for 100x amplification and nearly got it.</p>
+<p style="color:red;">Input Signal (20 mVpp)</p>
+<p style="color:yellow;">NonInverted Output Signal (1.8 Vpp)</p>
+<p>Here, I use my input supply with +/- 10V rails to amplify an input signal (sine wave) of 20 mVpp to nearly 2 Vpp (~100x gain) with near perfect accuracy using a <a href="https://www.futurlec.com/Motorola/MC33174.shtml">Motorolla MC33174</a>. In order to amplify the signal without clipping the waveform, the range of the rails must be larger than the highest amplified output on both edges. In this case, we were going for 100x amplification and nearly got it.</p>
 <h4>Waveform Inversion & 100x signal gain using an inverting amplifier</h4>
 <div class="row">
     <div class="column.large-centered">
     <img src="{{ site.urlimg }}psuinputAmplifiedReversed.jpg" alt="">
     </div>
 </div>
+<p style="color:red;">NonInverted Output Signal (1.8 Vpp)</p>
+<p style="color:yellow;">Inverted Output Signal (1.8 Vpp)</p>
 
 <h2>Custom Built Overcurrent Protection Circuit</h2>
 <div class="row">
