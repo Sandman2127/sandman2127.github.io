@@ -106,7 +106,7 @@ header:
 <h4>Amplifying live audio from <a href="https://www.youtube.com/watch?v=Vsy1URDYK88">Language</a> by: Porter Robinson</h4>
 <div>
 <video width="1000" controls="controls">
-    <source src="/images/psuLanguageAliveFull.mov">
+    <source src="/images/psuLanguageAliveFull.mp4" type="video/mp4">
 </video>
 </div>
 <p style="color:red;">Audio Input Signal (100 mVpp scale)</p>
