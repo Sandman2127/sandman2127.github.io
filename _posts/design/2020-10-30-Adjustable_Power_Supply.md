@@ -106,9 +106,7 @@ header:
 <h4>Amplifying live audio from <a href="https://www.youtube.com/watch?v=Vsy1URDYK88">Language</a> by: Porter Robinson</h4>
 <div>
 <video width="1000" controls>
-    <source src="/images/psuLanguageAliveFull.mp4" type="video/mp4">
-    <source src="movie.ogg" type="video/ogg">
-    Your browser does not support the video tag.
+    <source src="/images/psuLanguageAliveFullH264.mov">
 </video>
 </div>
 <p style="color:red;">Audio Input Signal (100 mVpp scale)</p>
