@@ -105,7 +105,7 @@ header:
 
 <h4>Amplifying live audio from <a href="https://www.youtube.com/watch?v=Vsy1URDYK88">Language</a> by: Porter Robinson</h4>
 <div>
-<video>
+<video width="800">
     <source src="/images/psuLanguageAliveFullH264.mov">
 </video>
 </div>

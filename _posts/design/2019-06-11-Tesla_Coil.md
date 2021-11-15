@@ -105,9 +105,8 @@ header:
 
 <h3><strong>The Glorious First Light</strong></h3>
 <div>
-<video width="1000" controls>
+<video width="800" controls>
     <source src="/images/TC_description.mp4" type="video/mp4">
-    <source src="movie.ogg" type="video/ogg">
     Your browser does not support the video tag.
 </video>
 </div>
@@ -116,9 +115,8 @@ header:
 <h3><strong>Finally, it works...it works!!!!!</strong></h3>
 <h5><strong>Tuning and Improved Streamer images</strong></h5>
 <div>
-<video width="1000" controls>
+<video width="800" controls>
     <source src="/images/TC_test2.mp4" type="video/mp4">
-    <source src="movie.ogg" type="video/ogg">
     Your browser does not support the video tag.
 </video>
 </div>
