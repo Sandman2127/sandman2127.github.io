@@ -18,7 +18,7 @@ header:
     </div>
 </div>
 <p>image credit: https://www.elprocus.com/</p>
-<p>An unregulated power supply uses a transformer to step down wall voltage (120v @ 60 Hz) to a lower voltage (12v @ 60 Hz). The step down transformer output is fed to system of rectifier diodes that recitify both sides of the AC waveform to a positive (+) bouncing wave. The diodes achieve this by acting as one way valves for current flow, i.e. once current has passed a diode, it cannot return through the same path. Finally, a thick sufficient voltage electrolytic capacitor is used to smooth the bouncing wave to a near Direct Current output DC. Unregulated supplies are as mentioned unable to smoothly regulate the voltage at the outputs. Thus, they are best avoided if possible.</p>
+<p>An unregulated power supply uses a transformer to step down wall voltage (120v @ 60 Hz) to a lower voltage (12v @ 60 Hz). The step down transformer output is fed to system of rectifier diodes that recitify both sides of the AC waveform to a positive (+) bouncing wave. The diodes achieve this by acting as one way valves for current flow, i.e. once current has passed a diode, it cannot return through the same path. Finally, a thick sufficient voltage electrolytic capacitor is used to smooth the bouncing wave to a near Direct Current output DC. Unregulated supplies are unable to smoothly regulate the voltage at the outputs. For simple cases they are acceptable, but anything requiring more precise voltage regulation should avoid them.</p>
 
 <h3>A Linear Regulated Power Supply</h3>
 <p></p>
