@@ -28,16 +28,6 @@
   url: "https://github.com/Sandman2127/pdfs/blob/master/DS_Resume_2018.pdf"
   side: left
 
-- title: Microscopy Build Schematics
-  side: right
-  dropdown:
-  - title: "Fluorescence Macroscope"
-    url: "https://github.com/Sandman2127/pdfs/tree/master/Macroscope"
-  - title: "Biofilm Reactor"
-    url: "https://github.com/Sandman2127/pdfs/blob/master/Biofilm_reactor.pdf"
-  - title: "Petriplate Biofilm Viewer"
-    url: "https://github.com/Sandman2127/pdfs/blob/master/Biofilm_Coverslip_Petriplate.pdf"
-
 - title: "Electronics Builds"
   side: right
   dropdown:
@@ -50,9 +40,15 @@
   - title: "Raspberry Pi temperature regulator"
     url: "/design/Pi_Fan_Proj"
 
-#- title: "Search"
-#  url: "/search/"
-#  side: right
+- title: Microscopy Build Schematics
+  side: right
+  dropdown:
+  - title: "Fluorescence Macroscope"
+    url: "https://github.com/Sandman2127/pdfs/tree/master/Macroscope"
+  - title: "Biofilm Reactor"
+    url: "https://github.com/Sandman2127/pdfs/blob/master/Biofilm_reactor.pdf"
+  - title: "Petriplate Biofilm Viewer"
+    url: "https://github.com/Sandman2127/pdfs/blob/master/Biofilm_Coverslip_Petriplate.pdf"
 
 - title: "Contact"
   url: "/contact/"
