@@ -107,8 +107,6 @@ header:
 <div>
 <video width="1000" controls>
     <source src="/images/psuLanguageAlive.MOV" type="video/mp4">
-    <source src="movie.ogg" type="video/ogg">
-    Your browser does not support the video tag.
 </video>
 </div>
 <p style="color:red;">Audio Input Signal (100 mVpp scale)</p>
