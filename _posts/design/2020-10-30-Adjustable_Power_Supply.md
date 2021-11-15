@@ -50,21 +50,23 @@ header:
 </div>
 <h2>Why build a supply with dual rails?</h2>
 <h3> Operational Amplifiers (opamps)</h3>
-<p>Having a supply with + & - voltage rail allows the user to amplify analog signals like music or sensor data with massive signal gain. One way to do this is to use an opamp.</p> 
-<div class="row">
+<p>Having a supply with + & - voltage rail allows the user to amplify analog signals like music or sensor data with massive signal gain. One way to do this is to use an opamp.</p>
+<!-- <div class="row">
     <div class="column.large-centered">
     <img src="{{ site.urlimg }}psuOpAmp.jpg" alt="">
     </div>
-</div>
-<p>Using the circuit configuration shown in this live everycirc simulation, we can both amplify and invert any input signal within that opamps capability. The results are astounding...</p>
-<h4>100x signal gain using negative feedback</h4>
+</div> -->
+<a href="https://everycircuit.com/circuit/6586919818625024">Non-inverting and inverting op-amp simulation</a><br>
+<iframe width="560" height="360" src="https://everycircuit.com/embed/6586919818625024" frameborder="0"></iframe>
+<p>Using the circuit configuration shown in the above simulation we can both amplify and invert any input signal within that opamps capability. The results in real life are nothing short of astounding...</p>
+<h4>100x signal gain using using a non-inverting amplifier w/negative feedback</h4>
 <div class="row">
     <div class="column.large-centered">
     <img src="{{ site.urlimg }}psuinputAmplified.jpg" alt="">
     </div>
 </div>
-Here, I input a 20 mVpp signal and amplify it to nearly 2V (~100x) with near perfect accuracy using a <a href="https://www.futurlec.com/Motorola/MC33174.shtml">Motorolla MC33174</a>.</p>
-<h4>Waveform Inversion</h4>
+Here, I use my input supply with +/- 10V rails to amplify an input signal (sine wave) of 20 mVpp to nearly 2 Vpp (~100x gain) with near perfect accuracy using a <a href="https://www.futurlec.com/Motorola/MC33174.shtml">Motorolla MC33174</a>. In order to amplify the signal without clipping the waveform, the range of the rails must be larger than the highest amplified output on both edges. In this case, we were going for 100x amplification and nearly got it.</p>
+<h4>Waveform Inversion & 100x signal gain using an inverting amplifier</h4>
 <div class="row">
     <div class="column.large-centered">
     <img src="{{ site.urlimg }}psuinputAmplifiedReversed.jpg" alt="">
