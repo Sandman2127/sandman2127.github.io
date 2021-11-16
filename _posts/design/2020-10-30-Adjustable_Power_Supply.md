@@ -30,13 +30,13 @@ header:
 <p>In a regulated power supply the majority of the above description still applies. One major difference occurs once that the current reaches the regulator IC. The IC uses internal circuitry to vary the input current at whatever level is necessary to maintain the output voltage set by the user. Modern day regulator IC's can reject >75 Db of signal ripple, producing an extremely stable output voltage at the cost of outputting heat at a rate equivalent to the voltage drop across them. 
 
 <h4>Regulator output examples:</h4>
-<p>If 12V is applied the leads of the regulator and it is required to maintain a voltage at 6V while flowing 3A through a resistive load. According to <a href="https://en.wikipedia.org/wiki/Ohm%27s_law">Ohm's Law</a> (P=IV) the load will dissipate 18 watts. However, we must not forget about the potential difference still in the circuit. Since we started with 12V - 6V (load) we still have 6V across the regulator. Since the load is pulling 3A that means the same 3A current must flow through the IC and this is where trouble begins. Thus, 3A * 6V = 18 watts. While the load may be able to handle 18 watts that is quite a lot of heat for a non-heatsinked regulator to dissipate. See the real world results of similar mistake below:</p>
+<p>If 12V is applied the leads of the regulator and it is required to maintain a voltage at 6V while flowing 3A through a resistive load. According to <a href="https://en.wikipedia.org/wiki/Ohm%27s_law">Ohm's Law</a> (P=IV) the load will dissipate 18 watts. However, we must not forget about the potential difference still in the circuit. Since we started with 12V and regulated our load voltage at 6V we still have 6V remaining across the linear regulator. Since the load is allowing 3A to flow that means the same 3A current must also flow through the IC. As mentioned 3A * 6V = 18 watts. Even if the load your trying to power can handle 18 watts, it is very unlikely that a non-heatsinked regulator could dissipate it before destruction. In the real world a mistake like that would likely lead to something like this in a matter of msec :</p>
 <div class="row">
     <div class="column.large-centered">
     <img src="{{ site.urlimg }}psuLinRegOops.jpg" alt="">
     </div>
 </div>
-<p>The left is the remainder of a linear regulator IC designed to handle 5A @ 24V. As I discovered that rating means little when you dead short it. Needless to say, protection from such a mistake is something you realize you need in hindsight.</p>
+<p>On the left is the remainder of a linear regulator IC designed to handle 5A @ 24V. Moments before it exploded an accidental dead short occured at the output terminals. Needless to say, protection from mistakes like this are essential, but hindsight is 20/20.</p>
 <h2>A Dual Rail Linear Power Supply with Short Circuit Protection</h2>
 <div class="row">
     <div class="column.large-centered">
